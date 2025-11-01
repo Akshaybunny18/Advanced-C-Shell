@@ -1,0 +1,121 @@
+# Compiled binaries
+*.out
+*.o
+*.a
+*.so
+*.exe
+shell/autograder/
+assignment_0/
+autograder_logs/
+autograder_logs_final/
+README.md
+README2.md
+# Shell binary
+shell/shell.out
+
+# Networking binaries
+networking/server
+networking/client
+
+# xv6 build artifacts
+xv6/*.o
+xv6/kernel
+xv6/fs.img
+xv6/initcode
+xv6/initcode.out
+xv6/kernelmemfs
+xv6/mkfs
+xv6/usys.S
+xv6/.gdbinit
+
+# Log files
+*.log
+
+# Core dumps
+core
+core.*
+
+# Editor files
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+.vscode/
+.idea/
+*.sublime-*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Test output files
+test_output/
+*.test
+
+# Command history
+.shell_history
+shell_history.txt
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Generated documentation
+html/
+latex/
+
+# Package manager files
+*.tar.gz
+*.zip
+*.7z
+
+# Dependencies
+.depend
+
+# Python cache (if any scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Valgrind output
+vgcore.*
+*.valgrind
+
+# GDB history
+.gdb_history
+
+# Tags files
+tags
+TAGS
+.tags
+.TAGS
+
+# CMake (if used)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.bak
+
+# Clang
+.clangd/
+.cache/
+compile_commands.json
