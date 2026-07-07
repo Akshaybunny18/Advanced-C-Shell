@@ -119,3 +119,5 @@ Makefile.bak
 .clangd/
 .cache/
 compile_commands.json
+
+llm_completions/
